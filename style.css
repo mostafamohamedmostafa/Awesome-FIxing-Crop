@@ -14,6 +14,9 @@ body {
 .dark-mode {
     background-color: black;
     color: white;
+    box-shadow:  #14213D 5px 5px 5px 5px;
+
+
 }
 
 
@@ -93,7 +96,7 @@ i {
 .nav-item .active {
     border: yellow 3px solid;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
+    -webkit-animation:;
 }
 
 /*End Nav*/
@@ -228,7 +231,7 @@ i {
 .our-class {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    background-color: #E5E5E5;
+    background-color: ;
 
 }
 
@@ -346,7 +349,7 @@ i {
     margin-top: 3vh;
     margin-bottom: 3vh;
     text-align: center;
-    background-color: #E5E5E5;
+  
 }
 
 .pricing h3 {
@@ -376,9 +379,9 @@ i {
 }
 
 .pricing-box:hover {
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:  #14213D 5px 5px 5px 5px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
     transition: ease-in-out 2s all;
     -webkit-animation: ease-in-out 2s all infinite;
     -webkit-transition: ease-in-out 2s all;
@@ -411,7 +414,6 @@ i {
 .pricing-box button:hover {
     border: orchid 3px solid;
     color: #ed1d24;
-    background-color: #E5E5E5;
     transition: all ease-in-out 2s;
     -webkit-transition: all ease-in-out 2s;
     -moz-transition: all ease-in-out 2s;
@@ -429,9 +431,7 @@ i {
 .Customer-testimonials h3 {
     text-align: center;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    -webkit-animation: ;
     text-shadow: 3px 3px 0px #F2A063;
-
 }
 
 
@@ -453,7 +453,6 @@ i {
     -ms-transition: 2s ease-in-out all;
     -o-transition: 2s ease-in-out all;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    -webkit-animation: ;
     border: #14213D 2px solid;
 }
 
@@ -522,14 +521,13 @@ i {
 
 .card-body {
     border: 2px #E5E5E5 solid;
-
-
+  
 }
 
 .card:hover {
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:  #14213D 5px 5px 5px 5px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
     transition: all ease-in 2s;
     -webkit-transition: all ease-in 2s;
     -moz-transition: all ease-in 2s;
@@ -541,6 +539,7 @@ i {
 .card {
     margin-bottom: 15px;
     text-align: center;
+   
 
 }
 
