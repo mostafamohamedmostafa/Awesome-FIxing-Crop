@@ -10,9 +10,11 @@ body {
 }
 
 .dark-mode {
-    background-color: black;
+    background-color: black !important;
+    background: black !important;
     color: white;
     box-shadow:  #14213D 5px 5px 5px 5px;
+
 }
 
 
@@ -400,14 +402,9 @@ i {
     -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-
 .testimoials-details {
     text-align: center;
-    margin-left: 2px;
     border: #E5E5E5 2px solid;
-    
-
-
 }
 
 
@@ -420,6 +417,7 @@ i {
     -o-transition: 2s ease-in-out all;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     border: #14213D 2px solid;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 
@@ -447,7 +445,7 @@ i {
     font-size: 1.8rem;
     text-shadow: 3px 3px 0px #14213D;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 .team button {
@@ -467,26 +465,27 @@ i {
 }
 
 .card-body {
-    border: 2px #E5E5E5 solid;
-  
+    border: 2px #E5E5E5 solid; 
+    background-color: transparent !important; 
 }
 
 .card:hover {
     box-shadow:  #14213D 5px 5px 5px 5px;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
     transition: all ease-in 2s;
     -webkit-transition: all ease-in 2s;
     -moz-transition: all ease-in 2s;
     -ms-transition: all ease-in 2s;
     -o-transition: all ease-in 2s;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    
 }
 
 
 .card {
     margin-bottom: 15px;
     text-align: center;
-   
+    background-color: transparent !important; 
 
 }
 
@@ -510,6 +509,7 @@ i {
     text-decoration: underline;
     text-decoration-color: #ed1d24;
     cursor: pointer;
+    -moz-text-decoration-color: #ed1d24;
 }
 
 .card-text {
