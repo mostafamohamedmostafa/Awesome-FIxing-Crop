@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -234,7 +233,7 @@ i {
     border: 3px solid whitesmoke;
     padding: 10px;
     text-align: center;
-    margin: 10px 10px auto auto;
+    margin: 10px 5px auto auto;
 }
 
 .inner-box {
