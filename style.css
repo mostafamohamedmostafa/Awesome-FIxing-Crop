@@ -6,7 +6,6 @@
 }
 
 body {
-
     color: white;
     text-align: center;
 }
@@ -15,8 +14,6 @@ body {
     background-color: black;
     color: white;
     box-shadow:  #14213D 5px 5px 5px 5px;
-
-
 }
 
 
@@ -61,7 +58,6 @@ body {
 nav {
     background-color: #14213D;
     color: white;
-
 }
 
 .nav-item a,
@@ -96,7 +92,7 @@ i {
 .nav-item .active {
     border: yellow 3px solid;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-    -webkit-animation:;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 /*End Nav*/
@@ -106,7 +102,6 @@ i {
 .carousel-item {
     background-size: cover;
     background-position: center;
-
 }
 
 @media(max-width:768px) {
@@ -173,12 +168,9 @@ i {
 /*<!--End Carousal -->*/
 
 /*<!--Start Why US -->*/
-
-
 .why-us {
     margin-top: 1vh;
     margin-bottom: 1vh;
-
 }
 
 .why-us .progress .progress-bar {
@@ -192,20 +184,16 @@ i {
     text-align: center;
     text-shadow: 3px 3px 0px #14213D;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
-
 }
 
 .why-us h1 {
     text-align: center;
     text-shadow: 3px 3px 0px #F2A063;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
 }
 
 .why-us-box {
     text-align: center;
-
 }
 
 .why-us-box:hover {
@@ -214,27 +202,18 @@ i {
     -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-
-
 .why-us-box h4 {
     font-size: 1.5rem;
     color: orange;
-
 }
-
-
 
 /*<!--End Why US -->*/
 
 /*<!--Start Our Class -->*/
-
 .our-class {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    background-color: ;
-
 }
-
 
 .our-class h3 {
     color: orange;
@@ -245,7 +224,6 @@ i {
 .our-class h1 {
     text-align: center;
     color: #14213D;
-
 }
 
 .our-class-box .inner-box {
@@ -276,7 +254,6 @@ i {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-
 .inner-box h6 {
     color: orange;
 }
@@ -290,13 +267,11 @@ i {
     color: lime;
 }
 
-
-
 /*<!--End  Our Class -->*/
+
 /*<!--Start  registration -->*/
 .registration img {
     width: 100%;
-
 }
 
 .text-style {
@@ -318,7 +293,6 @@ i {
         font-size: 0.5rem;
     }
 }
-
 
 .text-style p {
     color: #FCA311;
@@ -349,13 +323,11 @@ i {
     margin-top: 3vh;
     margin-bottom: 3vh;
     text-align: center;
-  
 }
 
 .pricing h3 {
     color: orange;
     text-shadow: 3px 3px 0px #14213D;
-
 }
 
 .pricing h2 {
@@ -381,9 +353,8 @@ i {
 .pricing-box:hover {
     box-shadow:  #14213D 5px 5px 5px 5px;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
     transition: ease-in-out 2s all;
-    -webkit-animation: ease-in-out 2s all infinite;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
     -webkit-transition: ease-in-out 2s all;
     -moz-transition: ease-in-out 2s all;
     -ms-transition: ease-in-out 2s all;
@@ -420,18 +391,14 @@ i {
     -ms-transition: all ease-in-out 2s;
     -o-transition: all ease-in-out 2s;
 }
-
-
-
 /*<!--End  Pricing -->*/
-
-
 
 /* Start testimonials Section Style*/
 .Customer-testimonials h3 {
     text-align: center;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     text-shadow: 3px 3px 0px #F2A063;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 
@@ -468,25 +435,6 @@ i {
 }
 
 /* End testimonials Section Style*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*<!--Start  Team -->*/
 .team {
