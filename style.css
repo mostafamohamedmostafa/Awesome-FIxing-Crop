@@ -208,6 +208,10 @@ i {
     color: orange;
 }
 
+.img-small {
+    width: 40%;
+
+}
 /*<!--End Why US -->*/
 
 /*<!--Start Our Class -->*/
@@ -298,7 +302,7 @@ i {
 .text-style p {
     color: #FCA311;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 .text-style button {
